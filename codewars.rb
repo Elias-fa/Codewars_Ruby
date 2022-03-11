@@ -103,10 +103,36 @@ require 'pry'
 #   end
 # end
 
+###OTHER METHODS###
+
+# def find_needle(haystack)
+#   "found the needle at position #{haystack.index('needle')}"
+# end
+
+# def find_needle(haystack)
+#   haystack.each_with_index do |item,index|
+#     return "found the needle at position #{index}" if item == "needle" 
+#   end
+# end
+
 
 ########################
 
+# array = [1, '2', 3, '4', 5]
 
+# def sum_mix(x)
+#   x.map(&:to_i).inject(:+)
+# end
+
+# puts sum_mix(array)
+
+###OTHER METHODS###
+
+# x.sum(&:to_i)
+# x.map(&:to_i).sum
+
+
+#######################
 
 
 
