@@ -85,6 +85,26 @@ require 'pry'
 
 #######################
 
+# array = %w[hay stack words needle position list]
+
+# def find_needle(haystack)
+#   haystack.select.with_index { |x, y| return "found the #{x} at position #{y}" if x == 'needle' }
+# end
+
+# puts find_needle(array)
+
+
+# describe 'Test' do
+#   context 'exact equals' do
+#     it 'should list the location of the needle in an array of words' do
+#       test_array = %w[hay stack words needle position list]
+#       expect(find_needle(test_array)).to eq('found the needle at position 3')
+#     end
+#   end
+# end
+
+
+########################
 
 
 
