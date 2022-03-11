@@ -78,7 +78,6 @@ require 'pry'
 
 # def better_than_average(arr, points)
 #   arr.inject(:+) / arr.size < points
-#   # points > average ? true : false
 # end
 
 # puts better_than_average(array, 91)
