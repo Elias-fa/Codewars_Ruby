@@ -135,4 +135,47 @@ require 'pry'
 #######################
 
 
+# def simple_multiplication(number)
+#   if number % 2 == 0
+#     number * 8
+#   else
+#     number * 9
+#   end
+# end
+
+
+# number % 2 == 0 ? number * 8 : number * 9    #option 2 less lines of code
+# number.even? ? number * 8 : number * 9
+# number *= number.even? ? 8 : 9
+
+
+############################
+
+# example = 'this is a sentencE'
+
+# def disemvowel(str)
+#   vowels = %q[aeiouAEIOU]
+#   str.delete(vowels)
+# end
+# print disemvowel(example)
+
+# OR #
+# str.delete('aeiouAEIOU')
+# str.gsub /[aeiou]/i, ''
+#   vowels = 'aeiou'
+#   str.delete(vowels + vowels.upcase)
+
+
+###########################
+
+# array = [1, 3, 2]
+
+# def gimme(input_array)
+#   input_array.index(input_array.sort[1])
+# end
+# puts gimme(array)
+
+############################
+
+
 
