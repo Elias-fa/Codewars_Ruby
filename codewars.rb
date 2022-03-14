@@ -177,5 +177,11 @@ require 'pry'
 
 ############################
 
+options = %w[God Family Self_Betterment Everyone_Else Money]
 
+def happy_life(what_matters)
+  what_matters.map.with_index(0) { |x, y| y <= 2 ? "Focus on #{x} always." : "Never focus on #{x}." }
+end
+
+puts happy_life(options)
 
